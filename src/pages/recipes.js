@@ -11,29 +11,33 @@ const Recipes = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <section className="recipe">
-            <h3>
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
-            </h3>
-            <>
-              <Img
-                fluid={node.frontmatter.cover.childImageSharp.fluid}
-                alt={title}
-              />
-            </>
-            <>
-              <small>
-                {node.frontmatter.date} - {node.frontmatter.author}
-              </small>
-            </>
-          </section>
-        )
-      })}
+      <section className="recipes">
+        <ul className="recipes--list">
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <li>
+                <h3>
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <div>
+                  <Img
+                    fluid={node.frontmatter.cover.childImageSharp.fluid}
+                    alt={title}
+                  />
+                </div>
+                <div>
+                  <small>
+                    {node.frontmatter.date} - {node.frontmatter.author}
+                  </small>
+                </div>
+              </li>
+            )
+          })}
+        </ul>
+      </section>
     </Layout>
   )
 }
