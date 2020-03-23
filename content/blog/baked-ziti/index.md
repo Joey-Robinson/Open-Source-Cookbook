@@ -2,9 +2,10 @@
 title: Baked Ziti!
 date: "2020-03-06"
 description: "Yeetus"
+cover: "./bz.jpg"
 ---
 
-# Ingredients
+## Ingredients
 
     1 pound ziti (can sub penne) pasta
     Extra virgin olive oil
