@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 const Recipes = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -15,33 +14,24 @@ const Recipes = ({ data, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <>
-                <Img
-                  fluid={node.frontmatter.cover.childImageSharp.fluid}
-                  alt={title}
-                />
-              </>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
+          <section className="recipe">
+            <h3>
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                {title}
+              </Link>
+            </h3>
+            <>
+              <Img
+                fluid={node.frontmatter.cover.childImageSharp.fluid}
+                alt={title}
               />
-            </section>
-          </article>
+            </>
+            <>
+              <small>
+                {node.frontmatter.date} - {node.frontmatter.author}
+              </small>
+            </>
+          </section>
         )
       })}
     </Layout>
@@ -68,6 +58,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            author
             cover {
               publicURL
               childImageSharp {

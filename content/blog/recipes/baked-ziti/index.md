@@ -1,6 +1,8 @@
 ---
-title: Baked Ziti!
+title: "Baked Ziti!"
+category: "recipes"
 date: "2020-03-06"
+author: "Joey Robinson"
 description: "Yeetus"
 cover: "./bz.jpg"
 ---

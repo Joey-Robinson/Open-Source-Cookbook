@@ -17,6 +17,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <section>
         <h1>{post.frontmatter.title}</h1>
         <p>{post.frontmatter.date}</p>
+        <p>{post.frontmatter.author}</p>
+        <Link to="/recipes/">← Back To Recipes</Link>
         <article dangerouslySetInnerHTML={{ __html: post.html }} />
       </section>
 
@@ -67,6 +69,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        author
       }
     }
   }
