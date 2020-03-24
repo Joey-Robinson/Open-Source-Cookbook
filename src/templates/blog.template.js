@@ -19,7 +19,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <p>{post.frontmatter.date}</p>
         <p>{post.frontmatter.author}</p>
         <Link to="/recipes/">← Back To Recipes</Link>
-        <article dangerouslySetInnerHTML={{ __html: post.html }} />
+        <article
+          className="recipe--primary"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </section>
 
       <nav>

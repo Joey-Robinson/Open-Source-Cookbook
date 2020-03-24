@@ -1,8 +1,12 @@
 // Abstracts
 // Base
+@import './base/base';
+@import './base/typography';
 // Components
+@import './components/header';
 // Layouts
 @import './layouts/primary';
 @import './layouts/recipe';
 // Pages
+@import './pages/home';
 @import './pages/recipes';
