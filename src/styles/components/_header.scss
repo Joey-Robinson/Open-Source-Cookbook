@@ -1,8 +1,33 @@
 header {
   grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  div {
+    text-align: center;
+  }
+
+  span {
+    font-size: 2.5rem;
+  }
 
   hgroup {
     padding: 0;
-    margin: 0;
+    margin: 2rem 0 0 0;
+
+    h1 {
+      font-size: 7.5rem;
+      font-weight: 900;
+      padding: 0 0 0 0;
+    }
+
+    h4 {
+      padding: 0;
+      margin: 0;
+      font-size: 4rem;
+      font-weight: 700;
+    }
   }
 }

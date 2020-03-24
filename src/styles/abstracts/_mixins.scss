@@ -1,0 +1,84 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint==ultraSmall {
+    @media only screen and (max-width: 25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==phone {
+    @media only screen and (max-width: 37.5em) {
+      // 600px
+      @content;
+    }
+  }
+
+  @if $breakpoint==phoneWide {
+    @media only screen and (max-width: 40em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==phoneTab {
+    @media only screen and (max-width: 74em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==customSmall {
+    @media only screen and (max-width: 50em) {
+      // 800px
+      @content;
+    }
+  }
+
+  @if $breakpoint==ultraSpecific {
+    @media only screen and (min-width: 53.125em) {
+      // 850px
+      @content;
+    }
+  }
+
+  @if $breakpoint==tabPort {
+    @media only screen and (max-width: 56.25em) {
+      // 900px
+      @content;
+    }
+  }
+
+  @if $breakpoint==customMedium {
+    @media only screen and (max-width: 62.5em) {
+      // 1000px
+      @content;
+    }
+  }
+
+  @if $breakpoint==tabLand {
+    @media only screen and (max-width: 75em) {
+      // 1200px
+      @content;
+    }
+  }
+
+  @if $breakpoint==bigDesktop {
+    @media only screen and (max-width: 112.5em) {
+      // 1800px
+      @content;
+    }
+  }
+}
+
+@include respond(phone) {}
+
+@include respond(phoneWide) {}
+
+@include respond(phoneTab) {}
+
+@include respond(customSmall) {}
+
+@include respond(tabPort) {}
+
+@include respond(customMedium) {}
+
+@include respond(tabLand) {}
+
+@include respond(bigDesktop) {}
