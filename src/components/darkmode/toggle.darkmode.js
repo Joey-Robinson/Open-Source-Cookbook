@@ -1,18 +1,20 @@
-import React from "react"
+// No longer in use.
 
-const Toggle = ({ checked, onChange, t }) => (
-  <span className="toggle-control">
-    <label htmlFor="dmcheck">
-      <input
-        className="dmcheck"
-        type="checkbox"
-        checked={checked}
-        onChange={onChange}
-        id="dmcheck"
-      />
-    </label>
-    {/* <label htmlFor="dmcheck" /> */}
-  </span>
-)
+// import React from "react"
 
-export default Toggle
+// const Toggle = ({ checked, onChange, t }) => (
+//   <span className="toggle-control">
+//     <label htmlFor="dmcheck">
+//       <input
+//         className="dmcheck"
+//         type="checkbox"
+//         checked={checked}
+//         onChange={onChange}
+//         id="dmcheck"
+//       />
+//     </label>
+//     {/* <label htmlFor="dmcheck" /> */}
+//   </span>
+// )
+
+// export default Toggle

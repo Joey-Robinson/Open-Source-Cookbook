@@ -24,6 +24,12 @@ body {
     color: #333;
     transition: background-color 0.3s ease;
 
+    .home {
+      a {
+        color: #FF3838;
+      }
+    }
+
     pre,
     code {
       background: #333;
@@ -33,7 +39,7 @@ body {
     nav {
       a {
         background-color: #131313;
-        color: #fff;
+        color: #FF3838;
       }
     }
   }
@@ -43,17 +49,23 @@ body {
     color: #fff;
     transition: background-color 0.3s ease;
 
+    .home {
+      a {
+        color: #00ffbf;
+      }
+    }
+
     pre,
     code {
-      background: #521616;
+      background: rgb(173, 39, 39);
 
-      color: #dfdfdf;
+      color: #fff;
     }
 
     nav {
       a {
-        color: #FF3838;
-        background: white;
+        color: #00ffbf;
+        background: rgb(88, 63, 63);
       }
     }
   }
