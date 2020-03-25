@@ -23,6 +23,8 @@ const About = () => (
           simply never interested me. With this, even if someone has a small
           amount of recipes, they can still participate in a meangingful way.
         </p>
+        <h3>So What Now?</h3>
+        <p></p>
       </div>
     </section>
   </Layout>
