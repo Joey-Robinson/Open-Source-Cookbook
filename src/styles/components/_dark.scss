@@ -4,21 +4,28 @@
   justify-self: center;
   margin: 1rem 0 0 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3rem;
+  grid-template-columns: 1fr 1fr;
 
   input {
     justify-self: center;
   }
 
   button {
-    justify-self: center;
     width: 5px;
     height: 50px;
-    align-self: center;
     background: transparent;
     border: none;
     outline: none;
     cursor: pointer;
     color: red;
+  }
+
+  button:first-child {
+    align-self: end;
+  }
+
+  button:last-child {
+    align-self: start;
   }
 }
