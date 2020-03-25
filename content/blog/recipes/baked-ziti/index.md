@@ -5,6 +5,10 @@ date: "2020-03-06"
 author: "Joey Robinson"
 description: "Yeetus"
 cover: "./bz.jpg"
+tags:
+  - Baked Ziti
+  - Pasta
+  - Ziti
 ---
 
 ## Ingredients

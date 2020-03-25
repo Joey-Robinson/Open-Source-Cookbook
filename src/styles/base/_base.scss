@@ -24,6 +24,12 @@ body {
     color: #333;
     transition: background-color 0.3s ease;
 
+    pre,
+    code {
+      background: #333;
+      color: #fff
+    }
+
     nav {
       a {
         background-color: #10171d;
@@ -36,6 +42,13 @@ body {
     background-color: #10171d;
     color: #dfdfdf;
     transition: background-color 0.3s ease;
+
+    pre,
+    code {
+      background: #521616;
+
+      color: #dfdfdf;
+    }
 
     nav {
       a {
