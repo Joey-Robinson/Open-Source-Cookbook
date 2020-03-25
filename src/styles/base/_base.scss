@@ -21,7 +21,7 @@ body {
 
   &.light-mode {
     background-color: #fff;
-    color: #333;
+    color: #2d2d2d;
     transition: background-color 0.3s ease;
 
     .home {
@@ -45,7 +45,7 @@ body {
   }
 
   &.dark-mode {
-    background-color: #131313;
+    background-color: #2d2d2d;
     color: #fff;
     transition: background-color 0.3s ease;
 
@@ -64,8 +64,8 @@ body {
 
     nav {
       a {
-        color: #00ffbf;
-        background: rgb(88, 63, 63);
+        color: #fff;
+        background: cornflowerblue;
       }
     }
   }

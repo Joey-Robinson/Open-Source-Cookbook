@@ -50,7 +50,21 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Mono`,
+            variants: [`400`, `700`, `900`],
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    }`gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     {
