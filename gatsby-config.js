@@ -8,7 +8,7 @@ module.exports = {
       summary: `Share your favorite recipes. Learn git.`,
     },
     description: `Share your favorite recipes. Learn git.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://open-source-cookbook.netlify.com/`,
     social: {
       twitter: `@joeyrobinsondev`,
     },
@@ -82,8 +82,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
