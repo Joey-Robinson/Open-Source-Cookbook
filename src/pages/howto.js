@@ -156,6 +156,25 @@ const Howto = () => (
           Where we want an image to appear. We'll again add the image(s) to the
           folder we created earlier.
         </p>
+        <h3>Adding Changes To The Repository:</h3>
+        <p>
+          Ok, our Grilled Chicken recipe is done. Now what? Well, we'll need to
+          push our newly update project back to GitHub.
+        </p>
+        <h3>Submitting A Pull Request:</h3>
+        <p>First.</p>
+        <br />
+        <p>
+          We'll start by going to the{" "}
+          <a
+            href="https://github.com/Joey-Robinson/osc/pulls"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pull Request Section
+          </a>{" "}
+          of the repository. And submitting a Pull Request
+        </p>
       </div>
     </section>
   </Layout>
