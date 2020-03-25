@@ -1,6 +1,16 @@
 .about {
-  display: grid;
   grid-column: 2;
   grid-row: 2;
   margin: 3rem 0 0 0;
+
+  h3 {
+    font-size: 2.4rem;
+    padding: 1.5rem 0;
+  }
+
+
+  p {
+    font-size: 2rem;
+  }
+
 }
