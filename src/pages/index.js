@@ -7,10 +7,12 @@ const Index = () => {
   return (
     <Layout>
       <SEO title="Open-Source Cookbook" />
-      <section className="home">
+      {/* <section className="home">
         <h1>From OSC Home</h1>
-        <Link to="/recipes/">Go To Recipes</Link>
-      </section>
+        <div>
+          <Link to="/recipes/">Go To Recipes</Link>
+        </div>
+      </section> */}
     </Layout>
   )
 }

@@ -4,7 +4,10 @@
 @import './base/base';
 @import './base/typography';
 // Components
+@import './components/dark';
 @import './components/header';
+@import './components/nav';
+@import './components/toggle';
 // Layouts
 @import './layouts/primary';
 @import './layouts/recipe';

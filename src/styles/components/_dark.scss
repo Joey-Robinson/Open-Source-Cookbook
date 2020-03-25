@@ -1,0 +1,24 @@
+.dark {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: center;
+  margin: 1rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  input {
+    justify-self: center;
+  }
+
+  button {
+    justify-self: center;
+    width: 5px;
+    height: 50px;
+    align-self: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: red;
+  }
+}
