@@ -16,6 +16,11 @@ const ReusableImage = props => (
               childImageSharp {
                 fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid
+                  src
+                  srcSet
+                  srcSetWebp
+                  srcWebp
+                  originalImg
                 }
               }
             }
@@ -32,7 +37,11 @@ const ReusableImage = props => (
       }
 
       //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
-      return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />
+      return (
+        <a href={image.node.childImageSharp.fluid.src}>
+          <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />
+        </a>
+      )
     }}
   />
 )

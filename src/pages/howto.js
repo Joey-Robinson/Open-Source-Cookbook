@@ -14,7 +14,7 @@ const Howto = () => (
       <div className="howto--guide">
         <h3>How do I get started with this?</h3>
         <p>
-          First, you'll need to either{" "}
+          First, we'll need to{" "}
           <a
             href="https://github.com/Joey-Robinson/osc"
             target="_blank"
@@ -22,18 +22,31 @@ const Howto = () => (
           >
             Head to the repository{" "}
           </a>
-          and either download, fork, or clone the repository. You'll need to
-          install&nbsp;
+          and fork it by clicking the fork button in the upper-right hand of the
+          repository page. After we've forked it, we'll need to download or
+          clone a version to our computer by clicking the clone or download
+          button and copying the url given to us. Once we have the URL copied,
+          we'll want to head to our terminal and do the following:
+          <ol style={{ padding: "1.5rem 0" }}>
+            <li>Paste the URL into our terminal</li>
+            <li>Press enter and install the repository locally</li>
+            <li>
+              After it has been installed, change directories into the
+              repository
+            </li>
+          </ol>
         </p>
         <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
           {" "}
           Clone Repository:
-          <code>https://github.com/Joey-Robinson/osc.git</code>
+          <code>https://github.com/[YOUR-NAME-HERE]/osc.git</code>
         </pre>
         <>
           <ReusableImage alt="Clone The Repository" filename="gitclone.jpg" />
         </>
         <p>
+          Next we're going to install the dependencies. If you don't have it,
+          you'll need to download&nbsp;
           <a
             href="https://nodejs.org/en/"
             target="_blank"
@@ -41,8 +54,8 @@ const Howto = () => (
           >
             NodeJS, which can be found here.
           </a>
-          &nbsp;If you have NodeJS installed, then it's a matter of cloning the
-          repository and installing the dependencies inside of the folder with:
+          &nbsp;If you have NodeJS installed, then it's a matter of installing
+          the dependencies inside of the folder with:
         </p>
         <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
           <code>npm install</code>
@@ -173,8 +186,44 @@ const Howto = () => (
           >
             Pull Request Section
           </a>{" "}
-          of the repository. And submitting a Pull Request
+          of the mina repository. And submitting a Pull Request against our own
+          version. To do this, we'll click the 'Compare Across Forks' link
+          provided to us by GitHub. Once we've clicked that, we'll compare our
+          new version to the base version, like shown in the image below:
         </p>
+        <>
+          <ReusableImage
+            alt="Submitting A New Pull Request"
+            filename="newpr.png"
+          />
+        </>
+        <p>
+          Once we've made it here, and your branch lines up with the guide,
+          you'll click on 'Create New Pull Request' and submit it. And you're
+          done! It will be reviewed and either merged into the master branch, or
+          denied with reasons.
+        </p>
+        <h3>To Summarize:</h3>
+        <ol style={{ padding: "1.5rem 0", fontSize: "2rem" }}>
+          <li>
+            Go to{" "}
+            <a
+              href="https://github.com/Joey-Robinson/osc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The Repository, here
+            </a>
+          </li>
+          <li>Fork The Repository</li>
+          <li>Download or Clone the Repository to your machine</li>
+          <li>Install the dependencies</li>
+          <li>Make a new branch following the guide</li>
+          <li>Start the server and create your folder and file</li>
+          <li>Fill in the information and write your recipe</li>
+          <li>Commit the changes and push the changes to GitHub</li>
+          <li>Submit a Pull Request and wait for a response</li>
+        </ol>
       </div>
     </section>
   </Layout>

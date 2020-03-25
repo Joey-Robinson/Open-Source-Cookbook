@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `OSC`,
+    title: `Open-Source Cookbook`,
     author: {
       name: `Joey Robinson`,
-      summary: `OSC`,
+      summary: `Share your favorite recipes. Learn git.`,
     },
-    description: `OSC.`,
+    description: `Share your favorite recipes. Learn git.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `@joeyrobinsondev`,
@@ -61,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Open-Source Cookbook`,
+        short_name: `OSC`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
