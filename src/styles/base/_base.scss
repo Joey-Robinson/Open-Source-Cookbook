@@ -14,7 +14,7 @@ html {
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 1.4;
   min-height: 100vh;
@@ -26,20 +26,20 @@ body {
 
     .home {
       a {
-        color: #FF3838;
+        color: #ff3838;
       }
     }
 
     pre,
     code {
       background: #333;
-      color: #fff
+      color: #fff;
     }
 
     nav {
       a {
-        background-color: #131313;
-        color: #FF3838;
+        background-color: #2d2d2d;
+        color: white;
       }
     }
   }
@@ -64,8 +64,8 @@ body {
 
     nav {
       a {
-        color: #fff;
-        background: cornflowerblue;
+        color: #2d2d2d;
+        background: white;
       }
     }
   }
