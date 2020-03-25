@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./header/header.main"
-import DarkModeToggle from "./dark"
+import DarkModeToggle from "./darkmode/dark.darkmode"
 
 // prettier-ignore
 const Layout = ({children}) => (
