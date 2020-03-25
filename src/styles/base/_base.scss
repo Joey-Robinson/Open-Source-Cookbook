@@ -32,15 +32,15 @@ body {
 
     nav {
       a {
-        background-color: #10171d;
-        color: #dfdfdf;
+        background-color: #131313;
+        color: #fff;
       }
     }
   }
 
   &.dark-mode {
-    background-color: #10171d;
-    color: #dfdfdf;
+    background-color: #131313;
+    color: #fff;
     transition: background-color 0.3s ease;
 
     pre,
@@ -52,8 +52,8 @@ body {
 
     nav {
       a {
-        background: #FF3838;
-        color: white;
+        color: #FF3838;
+        background: white;
       }
     }
   }
