@@ -24,10 +24,13 @@ body {
     color: #2d2d2d;
     transition: background-color 0.3s ease;
 
-    .home {
-      a {
-        color: #ff3838;
-      }
+
+    #fix {
+      color: #2d2d2d;
+    }
+
+    #pls {
+      color: white;
     }
 
     button {
@@ -69,6 +72,14 @@ body {
       a {
         color: white;
       }
+    }
+
+    #pls {
+      color: #2d2d2d;
+    }
+
+    #fix {
+      color: white;
     }
 
     button {

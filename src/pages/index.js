@@ -25,15 +25,21 @@ const Index = () => {
           <h3>How does this work?</h3>
           <p style={{ marginBottom: "1.5rem" }}>
             Well, it works by you or others participating. You can check the{" "}
-            <Link to="/howto/">How To Page</Link> to see the specfics (or the
-            README) of how you can participate. But the simplified version is
-            this:
+            <Link id="fix" to="/howto/">
+              How To Page
+            </Link>{" "}
+            to see the specfics (or the README) of how you can participate. But
+            the simplified version is this:
           </p>
           <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
             {/* prettier-ignore */} 1.) clone the repo and install dependencies
             <br />
             {/* prettier-ignore */} 2.) Make a new branch according to the how
-            to (<Link to="/howto/">Check HERE</Link> to see how) <br />
+            to (
+            <Link id="pls" to="/howto/">
+              Check HERE
+            </Link>{" "}
+            to see how) <br />
             {/* prettier-ignore */} 3.) push the code and wait for a pull
             request review
           </pre>
