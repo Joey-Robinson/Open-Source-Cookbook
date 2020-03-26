@@ -3,6 +3,28 @@
   grid-column: 2;
   grid-row: 2;
 
+  * {
+    grid-column: 1;
+  }
+
+  &--previous {
+    grid-row: 1;
+    justify-self: left;
+
+    a {
+      margin: 0 0 0 9rem;
+    }
+  }
+
+  &--next {
+    grid-row: 1;
+    justify-self: right;
+
+    a {
+      margin: 0 9rem 0 0;
+    }
+  }
+
   &--container {
     text-align: center;
 
