@@ -5,6 +5,9 @@
   grid-template-columns: 1fr;
   justify-items: center;
 
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
 
   &--group {
     text-align: center;
@@ -15,6 +18,10 @@
       font-size: 7.5rem;
       font-weight: 900;
       padding: 0 0 0 0;
+
+      @include respond(tabLand) {
+        font-size: 5rem;
+      }
     }
 
     h4 {
@@ -22,6 +29,10 @@
       margin: 0;
       font-size: 4rem;
       font-weight: 700;
+
+      @include respond(tabLand) {
+        font-size: 3rem;
+      }
     }
   }
 }

@@ -17,11 +17,13 @@ const Index = () => {
             recipes and git, I'm hoping to ease people into the world of the
             following concepts:&nbsp; <br />
           </p>
-          <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
-            {/* prettier-ignore */} 1.) git guidelines <br />
-            {/* prettier-ignore */} 2.) The process of pull requests <br />
-            {/* prettier-ignore */} 3.) Gatsby
-          </pre>
+          <div className="home--lists" style={{ fontSize: "2rem" }}>
+            <ol>
+              <li>git guidelines</li>
+              <li>The process of pull requests</li>
+              <li>Gatsby</li>
+            </ol>
+          </div>
           <h3>How does this work?</h3>
           <p style={{ marginBottom: "1.5rem" }}>
             Well, it works by you or others participating. You can check the{" "}
@@ -31,18 +33,19 @@ const Index = () => {
             to see the specfics (or the README) of how you can participate. But
             the simplified version is this:
           </p>
-          <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
-            {/* prettier-ignore */} 1.) clone the repo and install dependencies
-            <br />
-            {/* prettier-ignore */} 2.) Make a new branch according to the how
-            to (
-            <Link id="pls" to="/howto/">
-              Check HERE
-            </Link>{" "}
-            to see how) <br />
-            {/* prettier-ignore */} 3.) push the code and wait for a pull
-            request review
-          </pre>
+          <div className="home--lists" style={{ fontSize: "2rem" }}>
+            <ol>
+              <li>clone the repo and install dependencies</li>
+              <li>
+                Make a new branch according to the how to (
+                <Link id="pls" to="/howto/">
+                  Check HERE
+                </Link>{" "}
+                to see how)
+              </li>
+              <li>push the code and wait for a pull request review</li>
+            </ol>
+          </div>
           <h3>Can anyone participate?</h3>
           <p>
             OF COURSE! This isn't just meant for new people. Even if you know
@@ -60,11 +63,13 @@ const Index = () => {
             is or was. This will (as stated above) help teach people the
             following:
           </p>
-          <pre style={{ fontSize: "2rem", padding: "padding: 1.5rem" }}>
-            {/* prettier-ignore */} 1.) git guidelines <br />
-            {/* prettier-ignore */} 2.) The process of pull requests <br />
-            {/* prettier-ignore */} 3.) Gatsby
-          </pre>
+          <div className="home--lists" style={{ fontSize: "2rem" }}>
+            <ol>
+              <li>git guidelines</li>
+              <li>Thew process of pull requests</li>
+              <li>Gatsby</li>
+            </ol>
+          </div>
           <p style={{ margin: "1.5rem 0" }}>
             All of which are needed in todays development world. By learning
             Gatsby, a person will understand React and GraphQL as well. So a

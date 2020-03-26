@@ -4,16 +4,49 @@
   grid-row: 2;
   margin: 3rem 0 0 0;
 
+  &--lists {
+    background: #333;
+    color: white;
+    display: grid;
+
+    width: 90%;
+
+    @include respond(tabLand) {
+      margin: 0 0 0 3.5rem;
+    }
+
+    ol {
+      @include respond(tabLand) {
+        margin: 1.5rem 3.5rem;
+      }
+    }
+
+    li {
+      @include respond(tabLand) {
+        padding: .5rem 3rem;
+      }
+    }
+  }
+
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
+
   h3 {
     font-size: 2.4rem;
     padding: 1.5rem 0;
+
+    @include respond(tabLand) {
+      padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+    }
   }
 
-  pre {
-    padding: 1.5rem 0;
-  }
 
   p {
     font-size: 2rem;
+
+    @include respond(tabLand) {
+      padding: 0 6rem 0 3.5rem;
+    }
   }
 }
