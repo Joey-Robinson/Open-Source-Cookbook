@@ -1,5 +1,37 @@
 .recipes {
-  display: grid;
   grid-column: 2;
   grid-row: 2;
+  display: grid;
+
+  &--list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+
+    &__small {
+      padding: 1.5rem 0;
+    }
+
+    a {
+      color: white;
+    }
+
+    div,
+    li {
+      width: 250px;
+    }
+
+    h3 {
+      font-size: 2.4rem;
+      padding: .75rem 0;
+    }
+
+    small {
+      font-size: 1.6rem;
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
 }

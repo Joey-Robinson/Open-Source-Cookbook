@@ -28,9 +28,10 @@ const Recipes = ({ data, location }) => {
                     alt={title}
                   />
                 </div>
-                <div>
+                <div className="recipes--list__small">
                   <small>
-                    {node.frontmatter.date} - {node.frontmatter.author}
+                    <span>{node.frontmatter.author}</span> -{" "}
+                    {node.frontmatter.date}
                   </small>
                 </div>
               </li>

@@ -30,6 +30,10 @@ body {
       }
     }
 
+    button {
+      color: #2d2d2d;
+    }
+
     pre,
     code {
       background: #333;
@@ -51,15 +55,19 @@ body {
 
     .home {
       a {
-        color: #00ffbf;
+        color: red;
       }
+    }
+
+    button {
+      color: white;
     }
 
     pre,
     code {
-      background: rgb(173, 39, 39);
+      background: white;
 
-      color: #fff;
+      color: #131313;
     }
 
     nav {
