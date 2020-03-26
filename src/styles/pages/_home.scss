@@ -4,6 +4,10 @@
   grid-row: 2;
   margin: 3rem 0 0 0;
 
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
+
   &--lists {
     background: #333;
     color: white;

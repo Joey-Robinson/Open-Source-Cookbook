@@ -3,27 +3,57 @@
   grid-row: 2;
   display: grid;
 
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
+
   &--list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
 
+    @include respond(tabLand) {
+      grid-template-columns: 1fr;
+      grid-auto-flow: column;
+      justify-items: center;
+    }
+
     &__small {
       padding: 1.5rem 0;
     }
 
-    a {
-      color: white;
+    div,
+    li:nth-child(odd) {
+      @include respond(tabLand) {
+        margin: 1rem 6rem 0 0;
+      }
+    }
+
+    div,
+    li:nth-child(even) {
+      @include respond(tabLand) {
+        margin: 1rem 3.9rem 0 0;
+      }
     }
 
     div,
     li {
       width: 250px;
+
+      @include respond(tabLand) {
+        width: 300px;
+      }
+
     }
 
     h3 {
       font-size: 2.4rem;
       padding: .75rem 0;
+
+      @include respond(tabLand) {
+        font-size: 2.2rem;
+        padding: 3rem 0 0 0;
+      }
     }
 
     small {
