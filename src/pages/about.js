@@ -24,7 +24,10 @@ const About = () => (
           amount of recipes, they can still participate in a meangingful way.
         </p>
         <h3>So What Now?</h3>
-        <p></p>
+        <p>
+          Start coding. Anyone can participate and it's encouraged. Just
+          following the guide on the Howto page and you'll be good to go!
+        </p>
       </div>
     </section>
   </Layout>
