@@ -15,18 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <section className="recipe">
-        <h2>{post.frontmatter.title}</h2>
-        <p>{post.frontmatter.date}</p>
-        <p>{post.frontmatter.author}</p>
-        <Link to="/recipes/">← Back To Recipes</Link>
-        <article
-          className="recipe--primary"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </section>
-
-      <nav>
-        <ul
+        {/* <ul
           style={{
             display: `flex`,
             flexWrap: `wrap`,
@@ -49,8 +38,21 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               </Link>
             )}
           </li>
-        </ul>
-      </nav>
+        </ul> */}
+
+        <div className="recipe--container">
+          <hgroup>
+            <h2>{post.frontmatter.title}</h2>
+            <h4>{post.frontmatter.date}</h4>
+            <h4>{post.frontmatter.author}</h4>
+          </hgroup>
+          <Link to="/recipes/">← Back To Recipes</Link>
+        </div>
+        <article
+          className="recipe--primary"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
+      </section>
     </Layout>
   )
 }

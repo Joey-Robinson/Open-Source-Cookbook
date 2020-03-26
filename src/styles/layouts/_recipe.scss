@@ -3,13 +3,41 @@
   grid-column: 2;
   grid-row: 2;
 
+  &--container {
+    text-align: center;
+
+    a {
+      font-size: 2rem;
+    }
+  }
+
   h2 {
     font-size: 5rem;
   }
 
-  h3 {
-    font-size: 2.4rem;
-    padding: 1.5rem 0;
+  h4 {
+    font-size: 3rem;
   }
 
+  h3 {
+    padding: 1.5rem 0;
+    font-size: 2.4rem;
+  }
+
+  ul,
+  ol,
+  img,
+  span {
+    margin: 0 0 1.5rem 0;
+  }
+
+  ul,
+  ol,
+  p {
+    font-size: 2rem;
+  }
+
+  li {
+    padding: .5rem 0;
+  }
 }
