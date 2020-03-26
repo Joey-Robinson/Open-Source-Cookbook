@@ -1,4 +1,15 @@
 .recipe {
   display: grid;
   grid-column: 2;
+  grid-row: 2;
+
+  h2 {
+    font-size: 5rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    padding: 1.5rem 0;
+  }
+
 }

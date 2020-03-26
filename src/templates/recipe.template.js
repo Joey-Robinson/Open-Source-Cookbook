@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <section className="recipe">
-        <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.title}</h2>
         <p>{post.frontmatter.date}</p>
         <p>{post.frontmatter.author}</p>
         <Link to="/recipes/">← Back To Recipes</Link>

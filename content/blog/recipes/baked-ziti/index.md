@@ -11,7 +11,7 @@ tags:
   - Ziti
 ---
 
-## Ingredients
+### Ingredients
 
 - 1 pound ziti (can sub penne) pasta
 - Extra virgin olive oil
@@ -26,7 +26,7 @@ tags:
 - 1 heaping cup of ricotta cheese
 - 1 cup grated parmesan or pecorino cheese
 
-## Directions
+### Directions
 
 1. Boil the pasta: Heat a large pot of water (2 quarts of water) to a strong boil. Add a tablespoon of salt. Add the pasta and cook at a rolling boil, uncovered, until the pasta is al dente—edible but still a little firm to the bite. Drain the pasta through a colander. Toss with a little olive oil so the pasta does not stick together while you make the sauce.
 
