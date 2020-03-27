@@ -7,6 +7,7 @@ const Text = () => (
     <SEO title="How-to - Text" />
     <section className="text">
       <h1>From HowTo Text</h1>
+      <p>i broke shit.</p>
     </section>
   </Layout>
 )
