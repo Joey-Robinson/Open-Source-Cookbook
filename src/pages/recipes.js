@@ -23,10 +23,16 @@ const Recipes = ({ data, location }) => {
                   </Link>
                 </h3>
                 <div>
-                  <Img
-                    fluid={node.frontmatter.cover.childImageSharp.fluid}
-                    alt={title}
-                  />
+                  <a
+                    href={node.frontmatter.cover.publicURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Img
+                      fluid={node.frontmatter.cover.childImageSharp.fluid}
+                      alt={title}
+                    />
+                  </a>
                 </div>
                 <div className="recipes--list__small">
                   <small>

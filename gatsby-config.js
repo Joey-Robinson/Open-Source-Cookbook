@@ -133,6 +133,7 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
   ],
 }
