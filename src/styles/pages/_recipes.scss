@@ -16,6 +16,10 @@
     min-height: 210px;
     min-width: 280px;
 
+    @include respond(tabLand) {
+      max-width: 100%;
+      max-height: 100%;
+    }
   }
 
   &--list {
@@ -35,11 +39,11 @@
       grid-template-rows: 30rem;
 
       li:nth-child(odd) {
-        margin: 1rem 4.5rem 0 0;
+        margin: 1rem 4rem 0 0;
       }
 
       li:nth-child(even) {
-        margin: 1rem 0 0 4.5rem;
+        margin: 1rem 0 0 4rem;
       }
     }
 
