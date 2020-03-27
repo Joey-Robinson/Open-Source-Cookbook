@@ -3,6 +3,11 @@
   grid-column: 2;
   grid-row: 2;
 
+  @include respond(tabLand) {
+    grid-column: 1;
+    grid-template-rows: 1fr;
+  }
+
   * {
     grid-column: 1;
   }
@@ -10,23 +15,50 @@
   &--previous {
     grid-row: 1;
     justify-self: left;
+    display: block;
+
+    @include respond(tabLand) {
+      margin: 3rem 0 0 3.5rem;
+      z-index: 2;
+
+    }
 
     a {
       margin: 0 0 0 9rem;
+
+      @include respond(tabLand) {
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 
   &--next {
     grid-row: 1;
     justify-self: right;
+    display: block;
+
+    @include respond(tabLand) {
+      margin: 3rem 3.5rem 0 0;
+      z-index: 2;
+    }
 
     a {
       margin: 0 9rem 0 0;
+
+      @include respond(tabLand) {
+        margin: 0;
+      }
     }
   }
 
   &--container {
     text-align: center;
+
+    @include respond(tabLand) {
+      grid-row: 1;
+      margin: 3rem 0 0 0;
+    }
 
     a {
       font-size: 2rem;
@@ -48,9 +80,9 @@
 
   ul,
   ol,
-  img,
-  span {
+  img {
     margin: 0 0 1.5rem 0;
+
   }
 
   ul,

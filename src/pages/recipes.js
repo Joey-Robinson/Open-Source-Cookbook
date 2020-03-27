@@ -18,8 +18,9 @@ const Recipes = ({ data, location }) => {
             return (
               <li>
                 <h3>
+                  Go{" "}
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
+                    read about {title}
                   </Link>
                 </h3>
                 <div>
