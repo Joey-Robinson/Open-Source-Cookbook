@@ -65,6 +65,12 @@
     }
   }
 
+  &--primary {
+    @include respond(tabLand) {
+      padding: 0 3rem;
+    }
+  }
+
   h2 {
     font-size: 5rem;
   }
@@ -76,13 +82,28 @@
   h3 {
     padding: 1.5rem 0;
     font-size: 2.4rem;
+
+    @include respond(tabLand) {
+      padding: 1.5rem 0 1.5rem 1.5rem;
+    }
   }
 
   ul,
-  ol,
-  img {
+  ol {
     margin: 0 0 1.5rem 0;
 
+    @include respond(tabLand) {
+      margin: 0 0 1.5rem 3rem;
+    }
+  }
+
+
+  .gatsby-resp-image-wrapper {
+    margin: 0 0 1.5rem 0;
+
+    @include respond(tabLand) {
+      margin: 3rem 0;
+    }
   }
 
   ul,
@@ -91,7 +112,17 @@
     font-size: 2rem;
   }
 
+  p {
+    @include respond(tabLand) {
+      padding: 0 0 0 1.5rem;
+    }
+  }
+
   li {
     padding: .5rem 0;
+
+    @include respond(tabLand) {
+      padding: .5rem 1.5rem;
+    }
   }
 }

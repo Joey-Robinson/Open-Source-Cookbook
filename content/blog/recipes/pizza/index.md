@@ -7,7 +7,7 @@ description: "Yeetus"
 cover: "./pizza.jpg"
 ---
 
-## Ingredients
+### Ingredients
 
 Pizza
 
