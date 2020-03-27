@@ -11,10 +11,11 @@
   &--lists {
     display: grid;
     padding: 1.5rem 3rem;
-    width: 90%;
+    width: 100%;
 
     @include respond(tabLand) {
       margin: 0 0 0 3.5rem;
+      width: 90%;
     }
 
     ol {
@@ -46,10 +47,12 @@
 
   p {
     font-size: 2rem;
-    padding: 0 6rem 0 0;
+    padding: 0 0 0 0;
+    letter-spacing: 2px;
 
     @include respond(tabLand) {
       padding: 0 6rem 0 3.5rem;
+      letter-spacing: initial;
     }
   }
 }

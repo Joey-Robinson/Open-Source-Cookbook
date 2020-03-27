@@ -4,6 +4,10 @@ nav {
   padding: 0;
   width: 100%;
 
+  @include respond(tabLand) {
+    width: 90%;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
