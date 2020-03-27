@@ -9,10 +9,8 @@
   }
 
   &--lists {
-    background: #333;
-    color: white;
     display: grid;
-
+    padding: 1.5rem 3rem;
     width: 90%;
 
     @include respond(tabLand) {
@@ -48,6 +46,7 @@
 
   p {
     font-size: 2rem;
+    padding: 0 6rem 0 0;
 
     @include respond(tabLand) {
       padding: 0 6rem 0 3.5rem;

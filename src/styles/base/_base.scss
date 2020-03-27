@@ -28,8 +28,13 @@ body {
     color: #2d2d2d;
     transition: background-color 0.3s ease;
 
-    .recipes--list a {
+    .recipes--three {
       color: #2d2d2d;
+    }
+
+    .home--lists {
+      background: #333;
+      color: white;
     }
 
     #fix {
@@ -73,6 +78,15 @@ body {
       a {
         color: red;
       }
+    }
+
+    .home--lists {
+      color: #333;
+      background: white;
+    }
+
+    .recipes--three {
+      color: white;
     }
 
     .recipe {

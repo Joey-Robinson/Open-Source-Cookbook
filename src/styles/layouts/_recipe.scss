@@ -24,7 +24,7 @@
     }
 
     a {
-      margin: 0 0 0 9rem;
+      margin: 0 0 0 1.5rem;
 
       @include respond(tabLand) {
         margin: 0;
@@ -44,7 +44,7 @@
     }
 
     a {
-      margin: 0 9rem 0 0;
+      margin: 0 1.5rem 0 0;
 
       @include respond(tabLand) {
         margin: 0;

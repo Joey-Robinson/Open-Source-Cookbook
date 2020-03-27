@@ -2,13 +2,14 @@ nav {
   grid-row: 2;
   margin: 3rem 0 0 0;
   padding: 0;
+  width: 100%;
 
   ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     li {
-      padding: 0 1.5rem;
 
       a {
         font-weight: 700;
