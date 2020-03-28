@@ -7,9 +7,9 @@ const Images = () => (
   <Layout>
     <SEO title="How-to - Images" />
     <section className="images">
-      <h3>HowTO - Images</h3>
+      <h3>HowTo - Images</h3>
       <div className="images--container container">
-        <div className="container--link">
+        <div className="container--image ok">
           <a
             href="https://github.com/Joey-Robinson/osc"
             target="_blank"
@@ -53,9 +53,26 @@ const Images = () => (
           <ReusableImage alt="Adding Content" filename="content.png" />
         </div>
         <div className="container--image">
-          {/* ignore */}
           <p>Add, Commit, and Push Changes To GitHub</p>
           <ReusableImage alt="Commit Changes" filename="git.png" />
+        </div>
+        <div className="container--image">
+          <p>
+            Head To The{" "}
+            <a
+              href="https://github.com/Joey-Robinson/osc/pulls"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pull Requests Tab
+            </a>{" "}
+            To Start A New Pull Request
+          </p>
+          <ReusableImage alt="New Pull Request" filename="newpr.png" />
+        </div>
+        <div style={{ marginBottom: "3rem" }} className="container--image">
+          <p>Compared Across Forks And Submit</p>
+          <ReusableImage alt="Compared Across Forks" filename="compare.png" />
         </div>
       </div>
     </section>

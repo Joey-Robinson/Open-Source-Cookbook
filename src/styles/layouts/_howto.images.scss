@@ -1,0 +1,40 @@
+.images {
+  grid-column: 2;
+  grid-row: 2;
+
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    text-align: center;
+
+    @include respond(tabLand) {
+      margin: 3rem 0 0 0;
+    }
+  }
+}
+
+.container {
+
+  &--image {
+    a {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 2rem;
+      padding: 1.5rem 0;
+    }
+
+    @include respond(tabLand) {
+      width: 90%;
+      margin: 0 0 0 3.5rem;
+    }
+  }
+}
+
+.ok {
+  padding: 1.5rem 0;
+}
