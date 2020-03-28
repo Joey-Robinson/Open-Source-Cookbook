@@ -3,6 +3,8 @@
   grid-row: 2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1rem auto;
+
 
   @include respond(tabLand) {
     grid-template-columns: 1fr 1fr;

@@ -18,7 +18,7 @@
     display: block;
 
     @include respond(tabLand) {
-      margin: 3rem 0 0 3.5rem;
+      margin: 3rem 0 0 3.75rem;
       z-index: 2;
 
     }
@@ -39,7 +39,7 @@
     display: block;
 
     @include respond(tabLand) {
-      margin: 3rem 3.5rem 0 0;
+      margin: 3rem 4rem 0 0;
       z-index: 2;
     }
 

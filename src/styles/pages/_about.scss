@@ -3,14 +3,28 @@
   grid-row: 2;
   margin: 3rem 0 0 0;
 
+  @include respond(tabLand) {
+    grid-column: 1;
+  }
+
   h3 {
     font-size: 2.4rem;
     padding: 1.5rem 0;
-  }
 
+    @include respond(tabLand) {
+      padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+    }
+  }
 
   p {
     font-size: 2rem;
+    padding: 0 0 0 0;
+    letter-spacing: 2px;
+
+    @include respond(tabLand) {
+      padding: 0 6rem 0 3.5rem;
+      letter-spacing: initial;
+    }
   }
 
 }
