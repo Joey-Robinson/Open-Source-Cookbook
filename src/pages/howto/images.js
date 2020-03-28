@@ -53,6 +53,7 @@ const Images = () => (
           <ReusableImage alt="Adding Content" filename="content.png" />
         </div>
         <div className="container--image">
+          {/* ignore */}
           <p>Add, Commit, and Push Changes To GitHub</p>
           <ReusableImage alt="Commit Changes" filename="git.png" />
         </div>
