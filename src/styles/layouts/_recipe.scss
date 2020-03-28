@@ -16,9 +16,10 @@
     grid-row: 1;
     justify-self: left;
     display: block;
+    font-size: 1.6rem;
 
     @include respond(tabLand) {
-      margin: 3rem 0 0 3.75rem;
+      margin: 3rem 0 0 4rem;
       z-index: 2;
 
     }
@@ -37,6 +38,7 @@
     grid-row: 1;
     justify-self: right;
     display: block;
+    font-size: 1.6rem;
 
     @include respond(tabLand) {
       margin: 3rem 4rem 0 0;
@@ -68,6 +70,12 @@
   &--primary {
     @include respond(tabLand) {
       padding: 0 3rem;
+    }
+  }
+
+  @include respond(tabLand) {
+    hgroup {
+      margin: 3rem 0 0 0;
     }
   }
 

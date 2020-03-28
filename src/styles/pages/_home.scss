@@ -20,13 +20,13 @@
 
     ol {
       @include respond(tabLand) {
-        margin: 1.5rem 3.5rem;
+        // margin: 1.5rem 3.5rem;
       }
     }
 
     li {
       @include respond(tabLand) {
-        padding: .5rem 3rem;
+        // padding: .5rem 3rem;
       }
     }
   }
