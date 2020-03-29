@@ -25,94 +25,35 @@ body {
 
   &.light-mode {
     background-color: #fff;
-    color: #2d2d2d;
     transition: background-color 0.3s ease;
 
-    .recipes--three {
-      color: #2d2d2d;
-    }
-
-    .home--lists {
-      background: #333;
-      color: white;
-    }
-
-    #fix {
-      color: #2d2d2d;
-    }
-
-    #pls {
-      color: white;
-    }
-
+    p,
+    div,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
     button {
       color: #2d2d2d;
-    }
-
-    .recipe {
-      a {
-        color: #2d2d2d;
-      }
-    }
-
-    pre,
-    code {
-      background: #333;
-      color: #fff;
-    }
-
-    nav {
-      a {
-        background-color: #2d2d2d;
-        color: white;
-      }
     }
   }
 
   &.dark-mode {
     background-color: #2d2d2d;
-    color: #fff;
     transition: background-color 0.3s ease;
 
-    .home--lists {
-      color: #333;
-      background: white;
-    }
-
-    .recipes--three {
-      color: white;
-    }
-
-    .recipe {
-      a {
-        color: white;
-      }
-    }
-
-    #pls {
-      color: #2d2d2d;
-    }
-
-    #fix {
-      color: white;
-    }
-
+    p,
+    div,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
     button {
-      color: white;
-    }
-
-    pre,
-    code {
-      background: white;
-
-      color: #131313;
-    }
-
-    nav {
-      a {
-        color: #2d2d2d;
-        background: white;
-      }
+      color: #fff;
     }
   }
 }

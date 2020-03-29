@@ -16,7 +16,6 @@ const Howto = () => (
           Or you can view the image guide by{" "}
           <Link to="/howto/images/">Clicking Here instead.</Link>
         </p>
-        <p>You can also scroll down for both!</p>
       </div>
     </seciton>
   </Layout>
