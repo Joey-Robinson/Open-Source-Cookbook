@@ -130,7 +130,7 @@ const HowtoText = () => (
           rel="noopener noreferrer"
         >
           Repository, found here
-        </a>
+        </a>{" "}
         and head over to the <strong>Pull Request</strong> tab. Once there,
         we're going to click on the 'New Pull Request' button, and then click
         the 'Compare Across Forks' link. Here, we're going to click on the
