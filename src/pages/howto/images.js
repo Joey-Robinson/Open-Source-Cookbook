@@ -7,7 +7,7 @@ const Images = () => (
   <Layout>
     <SEO title="How-to - Images" />
     <section className="images">
-      <h3>HowTo - Images</h3>
+      <h2>HowTo - Images</h2>
       <div className="images--container container">
         <div className="container--image ok">
           <a

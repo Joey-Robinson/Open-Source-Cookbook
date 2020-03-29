@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import HowtoText from "../../components/howto/howto.text"
 
 const Text = () => (
   <Layout>
-    <SEO title="How-to - Text" />
+    <SEO title="How-To - Text" />
     <section className="text">
-      <h1>From HowTo Text</h1>
-      <p>i broke shit.</p>
+      <HowtoText />
     </section>
   </Layout>
 )

@@ -1,0 +1,32 @@
+.component {
+  strong {
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 4rem;
+    text-align: center;
+
+    @include respond(tabLand) {
+      margin: 3rem 0 0 0;
+    }
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    padding: 1.5rem 0;
+
+    @include respond(tabLand) {
+      padding: 1.5rem 1.5rem 1.5rem 3.5rem;
+    }
+  }
+
+  p {
+    font-size: 2rem;
+
+    @include respond(tabLand) {
+      padding: 1.5rem 3.5rem;
+    }
+
+  }
+}
