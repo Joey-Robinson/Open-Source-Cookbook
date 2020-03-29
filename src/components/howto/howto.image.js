@@ -34,7 +34,7 @@ const HowtoImage = () => (
         <ReusableImage alt="Content Folder" filename="contentfolder.png" />
       </div>
       <div className="container--image">
-        <p>Create New Folder And File For New Recipe:</p>
+        <p>Create New Folder And File For New Recipe Inside Of Recipes:</p>
         <ReusableImage alt="Add New Recipe" filename="newrecipe.png" />
       </div>
       <div className="container--image">
