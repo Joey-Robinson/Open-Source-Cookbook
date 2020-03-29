@@ -37,10 +37,13 @@ const HowtoText = () => (
       </p>
       <h3>Once Installed</h3>
       <p>
-        Once everything is installed, we're going to navigate to the{" "}
-        <strong>Content</strong> folder, located in the root of the directory.
-        Once we're there, we're going to click on the <strong>Blog</strong>{" "}
-        folder then the <strong>Recipe</strong> folder.
+        Once everything is installed, we're going to type the following into our
+        terminal to create a new branch. We're going to type{" "}
+        <strong>git checkout -b recipes/name-of-your-recipe.</strong> This will
+        create a new branch that we're going to work out of. Next, we're going
+        to navigate to the <strong>Content</strong> folder, located in the root
+        of the directory. Once we're there, we're going to click on the{" "}
+        <strong>Blog</strong> folder then the <strong>Recipe</strong> folder.
       </p>
       <p>
         Once we've selected the <strong>Recipe</strong> folder, we're going to
@@ -96,6 +99,49 @@ const HowtoText = () => (
         image inside of the folder we created earlier so that it can be shown.
         Note: You can name your image whatever you want but I'd suggest
         something simple.
+      </p>
+      <p>
+        After that, you're free to write out your recipe! You can add images by
+        simply type something like this: <strong>![Baked Ziti](bz.jpg)</strong>{" "}
+        where you want an image to be. You'll have to put the image you want to
+        use inside of the folder as well, but that's pretty much it!
+      </p>
+      <h3>Add, Commit, And Push Our Changes:</h3>
+      <p>
+        Alright! Our recipe is done. Now what? Well, it's time we push it back
+        up to GitHub! From our terminal, we're going to type the following
+        commands:
+        <ul>
+          <li>git add .</li>
+          <li>git commit -m "Your Message Here."</li>
+          <li>git push</li>
+        </ul>
+        And that's it! Our changes are now live in our own forked version of the
+        repository. Next we'll go over adding it back to the main repository via
+        pull requests!
+      </p>
+      <h3>Submitting Pull Requests:</h3>
+      <p>
+        This is pretty easy! After we've pushed our code up to GitHub, we're
+        going to submit a pull request. We'll navigate to the{" "}
+        <a
+          href="https://github.com/Joey-Robinson/osc"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Repository, found here
+        </a>
+        and head over to the <strong>Pull Request</strong> tab. Once there,
+        we're going to click on the 'New Pull Request' button, and then click
+        the 'Compare Across Forks' link. Here, we're going to click on the
+        dropdown menu on the right and select our fork. Once we do that, all
+        that's left to do is click 'Create Pull Request' and that's it. We're
+        done!
+      </p>
+      <p>
+        Now, we just wait. I'll eventually come along and either merge the Pull
+        Request or deny it with explination. Congratulations, we just made our
+        first open-source contribution!
       </p>
     </div>
   </div>
