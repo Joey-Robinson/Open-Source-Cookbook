@@ -125,7 +125,7 @@ module.exports = {
       options: {
         name: `Open-Source Cookbook`,
         short_name: `OSC`,
-        start_url: `/`,
+        start_url: `/recipes/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
