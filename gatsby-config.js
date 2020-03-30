@@ -7,7 +7,7 @@ module.exports = {
     },
     image: `content/assets/fav.png`,
     description: `Share your favorite recipes. Learn git.`,
-    siteUrl: `https://open-source-cookbook.netlify.com/`,
+    siteUrl: `https://open-source-cookbook.netlify.com/recipes/`,
     social: {
       twitter: `@joeyrobinsondev`,
     },
@@ -125,7 +125,7 @@ module.exports = {
       options: {
         name: `Open-Source Cookbook`,
         short_name: `OSC`,
-        start_url: `/recipes/`,
+        start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
