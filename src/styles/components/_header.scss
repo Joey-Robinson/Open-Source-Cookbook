@@ -5,6 +5,21 @@
   grid-template-columns: 1fr;
   justify-items: center;
 
+  &--dark {
+    grid-row: 1;
+    position: fixed;
+  }
+
+  button {
+    font-size: 1.9rem;
+    padding: 1.5rem 0;
+    margin: 0 1.5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
   @include respond(tabLand) {
     grid-column: 1;
   }
@@ -12,12 +27,14 @@
   &--group {
     text-align: center;
     padding: 0;
-    margin: 2rem 0 0 0;
+    grid-row: 2;
+
+    padding: 1.5rem 0 0 0;
 
     h1 {
       font-size: 7.5rem;
       font-weight: 900;
-      padding: 0 0 0 0;
+      padding: 1.5rem 0 0 0;
 
       @include respond(tabLand) {
         font-size: 5rem;
