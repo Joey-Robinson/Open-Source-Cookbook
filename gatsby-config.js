@@ -5,9 +5,8 @@ module.exports = {
       name: `Joey Robinson`,
       summary: `Share your favorite recipes. Learn git.`,
     },
-    image: `content/assets/fav.png`,
     description: `Share your favorite recipes. Learn git.`,
-    siteUrl: `https://open-source-cookbook.netlify.com/recipes/`,
+    siteUrl: `https://open-source-cookbook.netlify.com/`,
     social: {
       twitter: `@joeyrobinsondev`,
     },
