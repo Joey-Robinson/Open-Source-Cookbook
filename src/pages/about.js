@@ -24,6 +24,12 @@ const About = () => (
           Start coding. Anyone can participate and it's encouraged. Just
           following the guide on the Howto page and you'll be good to go!
         </p>
+        <h3>This Is Nice, But I Can Do Better.</h3>
+        <p style={{ marginBottom: "1.5rem" }}>
+          Ok. Go for it! More people using Gatsby or creating Open-Source
+          projects benefits all of us, not just yourself! If you have a similar
+          but better idea, then make it! It won't be done until you do it!
+        </p>
       </div>
     </section>
   </Layout>
