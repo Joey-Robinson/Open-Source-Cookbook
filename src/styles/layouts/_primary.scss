@@ -8,4 +8,10 @@
     grid-template-columns: 100vw;
     grid-template-rows: 20vh 1fr;
   }
+
+  @include respond(phone) {
+    grid-template-columns: 100vw;
+
+  }
+
 }

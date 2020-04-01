@@ -8,8 +8,12 @@
 
   @include respond(tabLand) {
     grid-template-columns: 1fr 1fr;
-
     grid-column: 1;
+  }
+
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 
   .gatsby-image-wrapper {
@@ -21,6 +25,11 @@
     @include respond(tabLand) {
       max-width: 100%;
       max-height: 100%;
+    }
+
+    @include respond(phone) {
+      // max-width: 100%;
+      // max-height: 100%;
     }
   }
 
@@ -46,6 +55,26 @@
 
       li:nth-child(even) {
         margin: 1rem 0 0 4rem;
+      }
+    }
+
+    @include respond(phone) {
+      grid-column: 1;
+      grid-template-columns: 1fr;
+      grid-column-gap: 0;
+      justify-self: center;
+      grid-auto-rows: initial;
+      grid-template-rows: 1fr;
+      margin: 3rem 0 0 0;
+
+      li:nth-child(odd) {
+        margin: 0;
+        padding: 0;
+      }
+
+      li:nth-child(even) {
+        padding: 0;
+        margin: 0;
       }
     }
 

@@ -8,12 +8,24 @@ nav {
     width: 90%;
   }
 
+  @include respond(phone) {
+    width: 90%;
+    margin: 0;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     li {
+      @include respond(phone) {
+        font-size: 1.6rem;
+        display: block;
+        margin: 1rem 0 0 0;
+        padding: 0 1.5rem;
+        text-align: center;
+      }
 
       a {
         font-weight: 700;
@@ -21,6 +33,9 @@ nav {
         padding: 1.5rem;
         text-decoration: none;
 
+        @include respond(phone) {
+          padding: 0;
+        }
       }
     }
   }
