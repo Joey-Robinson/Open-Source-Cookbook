@@ -21,7 +21,10 @@
     @include respond(tabLand) {
       margin: 3rem 0 0 4rem;
       z-index: 2;
+    }
 
+    @include respond(phone) {
+      margin: 4.5rem 0 0 3.5rem;
     }
 
     a {
@@ -45,6 +48,10 @@
       z-index: 2;
     }
 
+    @include respond(phone) {
+      margin: 4.5rem 3.5rem 0 0;
+    }
+
     a {
       margin: 0 1.5rem 0 0;
 
@@ -62,8 +69,16 @@
       margin: 3rem 0 0 0;
     }
 
+    @include respond(phone) {
+      margin: 6rem 0 0 0;
+    }
+
     a {
       font-size: 2rem;
+
+      @include respond(phone) {
+        font-size: 1.8rem;
+      }
     }
   }
 
@@ -81,10 +96,18 @@
 
   h2 {
     font-size: 5rem;
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
   }
 
   h4 {
     font-size: 3rem;
+
+    @include respond(phone) {
+      font-size: 2.2rem;
+    }
   }
 
   h3 {
@@ -118,6 +141,10 @@
   ol,
   p {
     font-size: 2rem;
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
   }
 
   p {
