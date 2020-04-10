@@ -76,28 +76,28 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     ![Pizza](pizza.jpg)
     ```
 
-```
-
 That's it! Just make sure the image is in the folder and you're all set! Next I'll go over how to add your recipe to the site.
 
 ## 🎉 Adding your recipe to the site.
 
 1.  Committing your changes.
 
- After you've added your recipe, it's time to commit your changes and submit a pull request. _Make sure **NOTHING** else is changed in the project before committing.
+After you've added your recipe, it's time to commit your changes and submit a pull request. \_Make sure **NOTHING** else is changed in the project before committing.
 
- Once you've typed out your recipe, you'll want to commit the change(s) you've and push it back up to GitHub.
+Once you've typed out your recipe, you'll want to commit the change(s) you've and push it back up to GitHub.
 
- After that submit a pull request and wait for a review and a merge.
-
+After that submit a pull request and wait for a review and a merge.
 
 ## 🚫 What's not allowed.
 
 1.  What's not allowed.
 
- The following items(s) are not allowed: _ANY_ changes outside of the designated directory. _ANY_ changes outside of that will not be merged unless opened as a different pull request.
+The following items(s) are not allowed: _ANY_ changes outside of the designated directory. _ANY_ changes outside of that will not be merged unless opened as a different pull request.
 
- That's all. Enjoy.
+That's all. Enjoy.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+```
+
 ```
