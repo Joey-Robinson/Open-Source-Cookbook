@@ -97,7 +97,3 @@ The following items(s) are not allowed: _ANY_ changes outside of the designated 
 That's all. Enjoy.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-
-```
-
-```
